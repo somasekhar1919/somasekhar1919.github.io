@@ -1,7 +1,11 @@
 body{
     margin :0;
     padding: 0;
-    background :url(back.jpg);
+    background :
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+
+    url(back.jpg);
+    
     background-size: cover;
     background-position: center ;
     font-family: sans-serif;
@@ -17,6 +21,7 @@ body{
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 50px 70px;
+    border-radius: 5px;
 }
 .login{
      width: 100px;
@@ -53,7 +58,7 @@ body{
     border-bottom: 1px solid #fff;
     background:transparent ;
     outline: 40px;
-    color:#rgb(2,46,51);
+    color:rgb(26, 10, 10);
     font-size: 16px;
 }
 
